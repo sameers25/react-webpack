@@ -1,0 +1,144 @@
+article,
+aside,
+dialog,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+  display: block;
+}
+body {
+  background: #fff;
+  font-family: sans-serif;
+  width: 85%;
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 0 25px;
+}
+h2 {
+  font-size: 1.75em;
+  text-transform: uppercase;
+}
+p {
+  font-size: 0.8125em;
+}
+.hide-text {
+  text-indent: -9999px;
+  font-size: 0;
+}
+.report {
+  border: solid 1px #afafaf;
+  padding: 10px;
+  overflow: hidden;
+  background: #f1f1f1;
+}
+.report legend {
+  position: absolute;
+  left: -999px;
+}
+.report .col-left {
+  float: left;
+  width: 43%;
+}
+.report .col-right {
+  float: right;
+  width: 57%;
+}
+.report label {
+  padding: 10px 15px;
+  display: block;
+  font-size: 0.75em;
+  font-weight: 700;
+  clear: both;
+  vertical-align: top;
+}
+.report select,
+.report input {
+  display: block;
+  width: 100%;
+  margin-top: 5px;
+}
+.report input {
+  padding: 5px;
+}
+.report button {
+  margin: 10px 15px;
+}
+.report .checkbox span {
+  float: left;
+}
+.report .checkbox input {
+  float: left;
+  width: auto;
+  margin-left: 20px;
+  margin-top: 0;
+}
+.report .pair {
+  overflow: hidden;
+  padding: 10px 15px;
+}
+.report .pair label {
+  width: 48%;
+  padding: 0;
+  clear: none;
+}
+.report .pair input {
+  width: 90%;
+}
+.report .pair-left {
+  float: left;
+}
+.report .pair-right {
+  float: right;
+}
+.report textarea {
+  width: 98%;
+  margin-top: 5px;
+}
+.report button {
+  border: solid 1px #aaa;
+  border-radius: 1px;
+  padding: 12px 25px;
+  color: #000;
+  float: right;
+}
+caption {
+  font-size: 1.75em;
+  text-transform: uppercase;
+  text-align: left;
+  margin: 1em 0 0.5em;
+  font-weight: bold;
+}
+thead {
+  background: #f1f1f1;
+}
+th,
+tfoot {
+  text-transform: uppercase;
+}
+tfoot {
+  border-top: solid 1px #f1f1f1;
+}
+th,
+td {
+  padding: 15px;
+  font-size: 0.75em;
+}
+td i {
+  cursor: pointer;
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: transparent url(icons.png) no-repeat 0 0;
+}
+.action-edit i {
+  background-position: -192px 0;
+}
+.action-delete i {
+  width: 13px;
+  background-position: -225px 0;
+}
